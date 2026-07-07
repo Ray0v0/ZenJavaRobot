@@ -1,0 +1,22 @@
+# Build output
+out/
+
+# Plugin build output
+plugins/*/out/
+
+# Plugins — only track echo-plugin as template
+plugins/*
+!plugins/echo-plugin/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# napcat
+guild1.db
+guild1.db-shm
+guild1.db-wal
